@@ -1,0 +1,15 @@
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\bin\Debug\net7.0\AdminArea_ProniaDAL.deps.json
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\bin\Debug\net7.0\AdminArea_ProniaDAL.dll
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\bin\Debug\net7.0\AdminArea_ProniaDAL.pdb
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\bin\Debug\net7.0\AdminArea_ProniaCore.dll
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\bin\Debug\net7.0\AdminArea_ProniaCore.pdb
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.AssemblyInfo.cs
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminAre.99AB151A.Up2Date
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.dll
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\refint\AdminArea_ProniaDAL.dll
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\AdminArea_ProniaDAL.pdb
+C:\Users\Asus\source\repos\AdminArea_Pronia\AdminArea_ProniaDAL\obj\Debug\net7.0\ref\AdminArea_ProniaDAL.dll

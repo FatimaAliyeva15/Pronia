@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AdminArea_ProniaDAL/1.0.0": {
+        "dependencies": {
+          "AdminArea_ProniaCore": "1.0.0"
+        },
+        "runtime": {
+          "AdminArea_ProniaDAL.dll": {}
+        }
+      },
+      "AdminArea_ProniaCore/1.0.0": {
+        "runtime": {
+          "AdminArea_ProniaCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdminArea_ProniaDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdminArea_ProniaCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
