@@ -23,7 +23,7 @@ namespace AdminArea_ProniaBusiness.Services.Concretes
         {
             if (category == null) throw new NullReferenceException("Category cannot be null");
 
-            if(_categoryReposiroty.GetAll().Any(x => x.Name == category.Name))
+            if(!_categoryReposiroty.GetAll().Any(x => x.Name == category.Name))
             {
                 _categoryReposiroty.Add(category);
                 _categoryReposiroty.Commit();

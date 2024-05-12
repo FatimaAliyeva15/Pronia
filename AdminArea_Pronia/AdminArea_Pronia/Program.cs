@@ -21,6 +21,8 @@ namespace AdminArea_Pronia
 
             builder.Services.AddScoped<ISliderService, SliderServer>();
             builder.Services.AddScoped<ISliderRepository, SliderRepository>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICategoryReposiroty, CategoryRepository>();
 
             var app = builder.Build();
 
@@ -28,7 +30,7 @@ namespace AdminArea_Pronia
 
             app.MapControllerRoute(
             name: "areas",
-            pattern: "{area:exists}/{controller=Slider}/{action=Index}/{id?}"
+            pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
           );
 
             app.MapControllerRoute(

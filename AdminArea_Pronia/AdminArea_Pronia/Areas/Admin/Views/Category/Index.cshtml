@@ -1,16 +1,14 @@
 ﻿@using AdminArea_ProniaCore.Models
-
 @model List<Category>
 @{
     int count = 0;
 }
-<h1>
-    Categories
-
-    <a class="btn btn-primary" asp-action="Create"> Create</a>
-</h1>
 
 <div class="container">
+
+    <h1>Categories\
+        <a class="btn btn-primary" asp-action="Create" >Create</a>
+    </h1>
 
     <table class="table">
         <thead>
@@ -18,7 +16,6 @@
                 <th scope="col">#</th>
                 <th scope="col">Id</th>
                 <th scope="col">Name</th>
-                <th scope="col">ProductCount</th>
             </tr>
         </thead>
         <tbody>
@@ -26,19 +23,15 @@
             {
                 count++;
                 <tr>
-                    <td>@count</td>
+                    <th>@count</th>
                     <td>@item.Id</td>
                     <td>@item.Name</td>
-                    <td>@item.Products.Count()</td>
                     <td>
                         <a class="btn btn-warning" asp-action="Update" asp-controller="Category" asp-route-id=@item.Id>Update</a>
                         <a class="btn btn-danger" asp-action="Delete" asp-controller="Category" asp-route-id=@item.Id>Delete</a>
                     </td>
                 </tr>
-
             }
-
-
         </tbody>
     </table>
 
