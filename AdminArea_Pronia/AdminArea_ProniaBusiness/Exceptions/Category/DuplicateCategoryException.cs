@@ -8,8 +8,10 @@ namespace AdminArea_ProniaBusiness.Exceptions
 {
     public class DuplicateCategoryException : Exception
     {
-        public DuplicateCategoryException(string? message) : base(message)
+        public string PropertyName { get; set; }
+        public DuplicateCategoryException(string propertyName, string? message) : base(message)
         {
+            PropertyName = propertyName;
         }
     }
 }

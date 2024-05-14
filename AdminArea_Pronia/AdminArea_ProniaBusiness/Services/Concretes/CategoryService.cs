@@ -30,7 +30,7 @@ namespace AdminArea_ProniaBusiness.Services.Concretes
             }
             else
             {
-                throw new DuplicateCategoryException("Category name cannot be the same");
+                throw new DuplicateCategoryException("Name","Category name cannot be the same");
             }
         }
 
@@ -67,7 +67,7 @@ namespace AdminArea_ProniaBusiness.Services.Concretes
             }
             else
             {
-                throw new DuplicateCategoryException("Category name cannot be the same");
+                throw new DuplicateCategoryException("Name","Category name cannot be the same");
             }
         }
     }

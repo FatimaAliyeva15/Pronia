@@ -41,15 +41,16 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
             catch (NullReferenceException ex)
             {
                 ModelState.AddModelError("Name", ex.Message);
+                return View();
             }
             catch(DuplicateCategoryException ex)
             {
-                ModelState.AddModelError("Name", ex.Message);
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
                 return View();
             }
             catch (Exception ex)
             {
-                throw;
+                return BadRequest(ex.Message);
             }
             
             return RedirectToAction(nameof(Index));
@@ -68,7 +69,7 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
-                throw;
+                return BadRequest(ex.Message);
             }
             return RedirectToAction(nameof(Index));
         }
@@ -94,15 +95,16 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
             catch (NullReferenceException ex)
             {
                 ModelState.AddModelError("Name", ex.Message);
+                return View();
             }
             catch (DuplicateCategoryException ex)
             {
-                ModelState.AddModelError("Name", ex.Message);
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
                 return View();
             }
             catch (Exception ex)
             {
-                throw;
+                return BadRequest(ex.Message);
             }
             
             return RedirectToAction(nameof(Index));

@@ -3,28 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\services\\concretes\\sliderserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\services\\concretes\\sliderserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE1F02C-9723-4824-8E19-EA5AE524CC30}|Core\\AdminArea_ProniaCore.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\core\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDE1F02C-9723-4824-8E19-EA5AE524CC30}|Core\\AdminArea_ProniaCore.csproj|solutionrelative:core\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniadal\\migrations\\20240514171413_addcrudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|solutionrelative:adminarea_proniadal\\migrations\\20240514171413_addcrudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\exceptions\\slider\\filenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\exceptions\\slider\\filenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\exceptions\\slider\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\exceptions\\slider\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\exceptions\\slider\\filesizeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\exceptions\\slider\\filesizeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\exceptions\\slider\\filecontenttypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\exceptions\\slider\\filecontenttypeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniabusiness\\exceptions\\category\\duplicatecategoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9476A71F-143B-4FEA-8F48-A60B7B276D99}|AdminArea_ProniaBusiness\\AdminArea_ProniaBusiness.csproj|solutionrelative:adminarea_proniabusiness\\exceptions\\category\\duplicatecategoryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDE1F02C-9723-4824-8E19-EA5AE524CC30}|Core\\AdminArea_ProniaCore.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDE1F02C-9723-4824-8E19-EA5AE524CC30}|Core\\AdminArea_ProniaCore.csproj|solutionrelative:core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniadal\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|solutionrelative:adminarea_proniadal\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniadal\\repositoryconcretes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|solutionrelative:adminarea_proniadal\\repositoryconcretes\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_pronia\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FE0908-6276-40E4-8108-16D7543A492C}|AdminArea_Pronia\\AdminArea_Pronia.csproj|solutionrelative:adminarea_pronia\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\adminarea_proniadal\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA28B78-85B2-4E84-A878-F82DAFB194BE}|AdminArea_ProniaDAL\\AdminArea_ProniaData.csproj|solutionrelative:adminarea_proniadal\\repositoryconcretes\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDE1F02C-9723-4824-8E19-EA5AE524CC30}|Core\\AdminArea_ProniaCore.csproj|c:\\users\\asus\\desktop\\taskadminarea_pronia\\adminarea_pronia\\core\\repositoryabstracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,15 +78,162 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 158,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240514191032_AddSlider.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs",
+              "RelativeToolTip": "AdminArea_ProniaDAL\\Migrations\\20240514191032_AddSlider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:10:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileNotFoundException.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileNotFoundException.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:17:08.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\EntityNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\EntityNotFoundException.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\EntityNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:10:03.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileSizeException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileSizeException.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileSizeException.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileSizeException.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileSizeException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:36:10.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DuplicateCategoryException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Category\\DuplicateCategoryException.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Exceptions\\Category\\DuplicateCategoryException.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Category\\DuplicateCategoryException.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Exceptions\\Category\\DuplicateCategoryException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:22:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileContentTypeException.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileContentTypeException.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileContentTypeException.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileContentTypeException.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Exceptions\\Slider\\FileContentTypeException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:21:17.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240514171413_AddCRUDSlider.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\Migrations\\20240514171413_AddCRUDSlider.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaDAL\\Migrations\\20240514171413_AddCRUDSlider.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\Migrations\\20240514171413_AddCRUDSlider.cs",
+              "RelativeToolTip": "AdminArea_ProniaDAL\\Migrations\\20240514171413_AddCRUDSlider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:14:13.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\Core\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\Core\\Models\\Slider.cs",
+              "RelativeToolTip": "Core\\Models\\Slider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T17:04:40.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminArea_Pronia\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AdminArea_Pronia\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoJAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T11:45:32.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SliderServer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Services\\Concretes\\SliderServer.cs",
+              "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Services\\Concretes\\SliderServer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Services\\Concretes\\SliderServer.cs",
+              "RelativeToolTip": "AdminArea_ProniaBusiness\\Services\\Concretes\\SliderServer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wFkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:27:26.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "AdminArea_Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "AdminArea_Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:26:21.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "AdminArea_Pronia\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -54,25 +245,21 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Services\\Concretes\\CategoryService.cs",
               "RelativeDocumentMoniker": "AdminArea_ProniaBusiness\\Services\\Concretes\\CategoryService.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaBusiness\\Services\\Concretes\\CategoryService.cs",
               "RelativeToolTip": "AdminArea_ProniaBusiness\\Services\\Concretes\\CategoryService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAwwCAAAAA0AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T09:29:16.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\RepositoryConcretes\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AdminArea_ProniaDAL\\RepositoryConcretes\\GenericRepository.cs",
@@ -80,11 +267,12 @@
               "RelativeToolTip": "AdminArea_ProniaDAL\\RepositoryConcretes\\GenericRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAqwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T09:26:45.455Z"
+              "WhenOpened": "2024-05-12T09:26:45.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\Core\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Category.cs",
@@ -92,24 +280,25 @@
               "RelativeToolTip": "Core\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T16:46:42.057Z"
+              "WhenOpened": "2024-05-11T16:46:42.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "AdminArea_Pronia\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "AdminArea_Pronia\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAABBAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwGoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T16:22:15.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\Core\\RepositoryAbstracts\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Core\\RepositoryAbstracts\\IGenericRepository.cs",
@@ -117,11 +306,12 @@
               "RelativeToolTip": "Core\\RepositoryAbstracts\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:23:54.535Z"
+              "WhenOpened": "2024-05-11T14:23:54.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_ProniaDAL\\RepositoryConcretes\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "AdminArea_ProniaDAL\\RepositoryConcretes\\CategoryRepository.cs",
@@ -129,7 +319,8 @@
               "RelativeToolTip": "AdminArea_ProniaDAL\\RepositoryConcretes\\CategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:21:00.332Z"
+              "WhenOpened": "2024-05-11T14:21:00.332Z",
+              "EditorCaption": ""
             }
           ]
         }

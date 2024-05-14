@@ -1,4 +1,5 @@
-﻿using AdminArea_ProniaBusiness.Services.Abstracts;
+﻿using AdminArea_ProniaBusiness.Exceptions.Slider;
+using AdminArea_ProniaBusiness.Services.Abstracts;
 using AdminArea_ProniaCore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -29,38 +30,54 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(Slider slider)
         {
-
-
-            string filename = slider.ImgFile.FileName;
-            string path = @"C:\Users\Asus\Desktop\TaskAdminArea_Pronia\AdminArea_Pronia\AdminArea_Pronia\wwwroot\Upload\Slider\" + filename;
-            using (FileStream stream = new FileStream(path, FileMode.Create))
-            {
-                slider.ImgFile.CopyTo(stream);
-
-            }
-
-            slider.ImgUrl = filename;
-
-            if (!ModelState.IsValid)
+         if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            _sliderService.AddSlider(slider);
+            try
+            {
+                _sliderService.AddSlider(slider);
+            }
+            catch(FileContentTypeException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch(FileSizeException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
-            var slider = _sliderService.GetSlider(x => x.Id == id);
-            string path = @"C:\Users\Asus\Desktop\TaskAdminArea_Pronia\AdminArea_Pronia\AdminArea_Pronia\wwwroot\Upload\Slider\" + slider.ImgUrl;
+            var exsistSlider = _sliderService.GetSlider(x => x.Id == id);
+            if(exsistSlider == null) return NotFound();
 
-            FileInfo fileInfo = new FileInfo(path);
-            if (fileInfo.Exists)
+            try
             {
-                fileInfo.Delete();
+                _sliderService.DeleteSlider(id);
             }
-            _sliderService.DeleteSlider(id);
+            catch(EntityNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+            }
+            catch(AdminArea_ProniaBusiness.Exceptions.Slider.FileNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return RedirectToAction(nameof(Index));
 
         }
@@ -68,10 +85,8 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
         public IActionResult Update(int id)
         {
             var slider = _sliderService.GetSlider(x => x.Id == id);
-            if(slider == null)
-            {
-                return RedirectToAction(nameof(Index));
-            }
+            if(slider == null) return NotFound();
+
             return View(slider);
         }
 
@@ -80,10 +95,32 @@ namespace AdminArea_Pronia.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(newSlider);
+                return View();
             }
 
-            _sliderService.UpdateSlider(id, newSlider);
+            try
+            {
+                _sliderService.UpdateSlider(id, newSlider);
+            }
+            catch(EntityNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch(FileContentTypeException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch(FileSizeException ex)
+            {
+                ModelState.AddModelError(ex.PropertyName, ex.Message);
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
             return RedirectToAction(nameof(Index));
         }

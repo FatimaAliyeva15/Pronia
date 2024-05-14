@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A/J+Nn64wdr+zk7oTkmsu/blDGK+0R2re6Qwx30RPEE=",
+  "Hash": "h77bC96OfLz2IvA58rXQRKh86MmivCvNncXTg/EQ2Xs=",
   "Source": "AdminArea_Pronia",
   "BasePath": "_content/AdminArea_Pronia",
   "Mode": "Default",
@@ -39328,12 +39328,12 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Slider\\1-2-524x617.png"
     },
     {
-      "Identity": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\wwwroot\\Upload\\Slider\\pxfuel.jpg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\wwwroot\\Upload\\Slider\\Pl.jpg",
       "SourceId": "AdminArea_Pronia",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\wwwroot\\",
       "BasePath": "_content/AdminArea_Pronia",
-      "RelativePath": "Upload/Slider/pxfuel.jpg",
+      "RelativePath": "Upload/Slider/Pl.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39344,7 +39344,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Slider\\pxfuel.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Slider\\Pl.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\wwwroot\\Upload\\Slider\\plant.jpg",
+      "SourceId": "AdminArea_Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\TaskAdminArea_Pronia\\AdminArea_Pronia\\AdminArea_Pronia\\wwwroot\\",
+      "BasePath": "_content/AdminArea_Pronia",
+      "RelativePath": "Upload/Slider/plant.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Slider\\plant.jpg"
     }
   ]
 }
