@@ -1,8 +1,10 @@
 using AdminArea_ProniaBusiness.Services.Abstracts;
 using AdminArea_ProniaBusiness.Services.Concretes;
+using AdminArea_ProniaCore.Models;
 using AdminArea_ProniaCore.RepositoryAbstracts;
 using AdminArea_ProniaData.DAL;
 using AdminArea_ProniaData.RepositoryConcretes;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdminArea_Pronia
@@ -14,6 +16,14 @@ namespace AdminArea_Pronia
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllersWithViews();
+            builder.Services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 8;
+                opt.User.RequireUniqueEmail = true;
+                opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._";
+                opt.Lockout.MaxFailedAccessAttempts = 3;
+            }).AddEntityFrameworkStores<AppDbContext>();
+
             builder.Services.AddDbContext<AppDbContext>(opt =>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
